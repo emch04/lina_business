@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+    font-family: "roboto", Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color:black;
+    margin:0 30px 0 30px ;
+    min-height: auto;
+    max-width: 92vw;
+    padding:20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    text-align: center;
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+}
+iframe{
+    
+    width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 0 20px 0;
+}
+img {
+    max-width: 100%;
+    width: 250px;
+    transition: transform 0.3s ease; /* Animation douce */
+    cursor: pointer;
+    margin: 0 10px 0 10px ;
+    padding:10px;
+    border-radius: 20px;
+}
+
+/* Effet de zoom au survol */
+img:hover {
+    transform: scale(1.5); /* Zoom à 150% */
+}
+footer a{
+    display: flex;
+    justify-self:end;
+    width: 40px;
+    margin: 19px;
+    background-color: black;
+    font-family: "roboto", sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    top: 0;
+    bottom: 0;
+}
