@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap');
 body{
-    background-color: aliceblue;
+    background-color: black;
     font-family: "roboto", Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    color:black;
+    color:white;
     margin:0 30px 0 30px ;
     min-height: auto;
     max-width: 92vw;
@@ -73,7 +73,9 @@ nav ul{
     top: 0;
     right: 10px;
     position: absolute;
-    background-color: aliceblue;
+    background-color: black;
+    
+    border-radius: 20px;
 }
  a {
     text-decoration: none;
@@ -83,14 +85,10 @@ nav ul{
     border-radius: 5px;
     transition: background-color 0.3s ease;
     background-color: black;
+    box-shadow: 0 2px 5px burlywood;
 }
-    
-a.active{
-    background-color: #ddd;
-}
- a:hover{
-    background-color: #ddd;
-}
+
+
 .description{
     display: block;
     font-family: "raleway", sans-serif;
@@ -99,7 +97,7 @@ a.active{
     left: 0;
     margin: 10px 0 0 0 ;
     padding: 20px 0 15px 0;
-    background-color: white;
+    background-color: black;
     border-radius: 20px;
     box-shadow: 0 0 10px burlywood;
     width: 50vw;
@@ -115,23 +113,23 @@ section {
     left:870px;
     margin: 10px 0 20px 0 ;
     padding: 20px 0 15px 0;
-    background-color: white;
+    /* background-color: black; */
     border-radius: 20px;
-    box-shadow: 0 0 10px burlywood;
+    /* box-shadow: 0 0 10px burlywood; */
     width: 33vw;
     height: 100px;
     border-radius: 20px;
     text-align: center;
 }
-section :hover{
-    background-color: #f5f5f5;
+section p:hover{
+    background-color: #05a643;
     transition: background-color 0.3s ease;
   }
 
 
-footer{
+footer small{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background-color: black;
     color: white;
     text-align: center;
